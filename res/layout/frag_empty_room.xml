@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/empty_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/select_xiaoqu_layout"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/home_select_list_style"
+        android:clickable="true" >
+
+        <ImageView
+            android:id="@+id/home_img_looks"
+            android:layout_width="31dip"
+            android:layout_height="31dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/index_looks" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@id/home_img_looks"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/id_xiaoqu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/xiaoqu"
+                android:textColor="@android:color/secondary_text_light"
+                android:textSize="18dip"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="6dip"
+            android:layout_height="12dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            android:src="@drawable/home_index_arrow" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/select_jiaoshi_layout"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/home_select_list_style"
+        android:clickable="true" >
+
+        <ImageView
+            android:id="@+id/jiaoshi_img"
+            android:layout_width="31dip"
+            android:layout_height="31dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/index_looks" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@id/jiaoshi_img"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/id_jiaoshileibie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jiaoshi"
+                android:textColor="@android:color/secondary_text_light"
+                android:textSize="18dip"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="6dip"
+            android:layout_height="12dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            android:src="@drawable/home_index_arrow" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/select_zuowei_s_layout"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/home_select_list_style"
+        android:clickable="true" >
+
+        <ImageView
+            android:id="@+id/zuowei_s_img"
+            android:layout_width="31dip"
+            android:layout_height="31dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/index_looks" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@id/zuowei_s_img"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/id_zuoweishu_s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zuowei_s"
+                android:textColor="@android:color/secondary_text_light"
+                android:textSize="18dip"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="6dip"
+            android:layout_height="12dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            android:src="@drawable/home_index_arrow" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/select_zuowei_e_layout"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/home_select_list_style"
+        android:clickable="true" >
+
+        <ImageView
+            android:id="@+id/zuowei_e_img"
+            android:layout_width="31dip"
+            android:layout_height="31dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/index_looks" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@id/zuowei_e_img"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/id_zuoweishu_e"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zuowei_e"
+                android:textColor="@android:color/secondary_text_light"
+                android:textSize="18dip"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="6dip"
+            android:layout_height="12dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            android:src="@drawable/home_index_arrow" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/select_riqi_layout"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/home_select_list_style"
+        android:clickable="true" >
+
+        <ImageView
+            android:id="@+id/riqi_img"
+            android:layout_width="31dip"
+            android:layout_height="31dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/index_looks" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@id/riqi_img"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/id_riqi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/riqi"
+                android:textColor="@android:color/secondary_text_light"
+                android:textSize="18dip"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="6dip"
+            android:layout_height="12dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            android:src="@drawable/home_index_arrow" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/select_zhou_layout"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/home_select_list_style"
+        android:clickable="true" >
+
+        <ImageView
+            android:id="@+id/zhou_img"
+            android:layout_width="31dip"
+            android:layout_height="31dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/index_looks" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@id/zhou_img"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/id_zhou"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zhou"
+                android:textColor="@android:color/secondary_text_light"
+                android:textSize="18dip"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="6dip"
+            android:layout_height="12dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            android:src="@drawable/home_index_arrow" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/select_jieci_layout"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/home_select_list_style"
+        android:clickable="true" >
+
+        <ImageView
+            android:id="@+id/jieci_img"
+            android:layout_width="31dip"
+            android:layout_height="31dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/index_looks" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@id/jieci_img"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/id_jieci"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jieci"
+                android:textColor="@android:color/secondary_text_light"
+                android:textSize="18dip"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="6dip"
+            android:layout_height="12dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            android:src="@drawable/home_index_arrow" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/id_submit"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/home_select_list_style"
+        android:clickable="true" >
+
+        <ImageView
+            android:id="@+id/submit_img"
+            android:layout_width="31dip"
+            android:layout_height="31dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/index_looks" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@id/submit_img"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="查询"
+                android:textColor="@android:color/secondary_text_light"
+                android:textSize="18dip"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="6dip"
+            android:layout_height="12dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            android:src="@drawable/home_index_arrow" />
+    </RelativeLayout>
+
+</LinearLayout>

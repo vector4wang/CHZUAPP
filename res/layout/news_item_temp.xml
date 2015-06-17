@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp" >
+    <TextView
+        android:id="@+id/id_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="如何有效地在海外市场推广产品？"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/id_pDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|right"
+        android:maxLines="2"
+        android:text="www.chzu.edu.cn"
+        android:textColor="@color/nomalGray"
+        android:textSize="14sp" />
+
+</LinearLayout>

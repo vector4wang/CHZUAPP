@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">滁州学院</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="pre_title">滁州学院</string>
+	<string name="school_news">校园新闻</string>
+	<string name="view_schedule">课表查询</string>
+	<string name="view_grade">成绩查看</string>
+	<string name="empty_classroom">空教室查询</string>
+	<string name="contast_us">联系与帮助</string>
+	<string name="share">分享</string>
+	
+	
+	<!-- 教务系统登录 -->
+    <string name="strInputAccHint">输入帐号</string>
+    <string name="strAccInputLabel">帐号</string>
+    <string name="strPswInputLabel">密码</string>
+    <string name="opt_remember">记住密码</string>
+    <string name="str_checkCode">验证码</string>
+    <string name="login">登 录</string>
+    
+    <!-- 空教室查询 -->
+    <string name="xiaoqu">请选择校区</string>
+    <string name="jiaoshi">请选择教室类别</string>
+    <string name="zuowei_s">起始座位人数(默认为0)</string>
+    <string name="zuowei_e">最多人数(默认无上限)</string>
+    <string name="riqi">请选择日期(默认是今天)</string>
+    <string name="zhou">请选择单双周(默认单周)</string>
+    <string name="jieci">请选择节次(默认第一二节)</string>
+    
+    
+    <!-- 联系与帮助 -->
+    <string name="help1">系统帮助:</string>
+    <string name="help2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;本系统基于教务管理信息查询系统网页版，使用相关技术将Web版的"搬"到了手机上。使用本系统可以查看课表和成绩还有空教室！大家如有好的意见和想法点击下方的联系作者可将想法发给我呦！如果你的电脑网络出现故障了，可直接点击右下角的信息中心，系统将直接进入拨打界面！</string>
+	<string name="help3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;●查看新闻在校内或校外均可使用!</string>
+	<string name="help4">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;●想使用其他功能,必须先登陆,点击右上角"小人标志"</string>
+	<string name="help5">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;●目前只支持在校内使用,必须连接校内网,如果你连接的是通过宿舍网设置的热点，也可以正常使用!</string>
+
+
+	<!-- 个人信息 -->
+	<string name="info1">赶快登陆吧!!!</string>
+	<string name="info2">登陆以后可以做什么呢?</string>
+	<string name="info3">登陆以后可以看到个人信息</string>
+	<string name="info4">登陆以后可以实时查看课表</string>
+	<string name="info5">登陆以后可以实时查看成绩</string>
+	<string name="info6">登陆以后可以查看所有教师的使用情况!</string>
+	
+</resources>

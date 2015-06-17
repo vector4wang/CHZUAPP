@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/chat_bg_01"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp" >
+
+        <com.chzu.app.view.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/chzu"
+            app:border_color="#FFffffff"
+            app:border_width="1dp" />
+
+        <TextView
+            android:id="@+id/chzu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/profile_image"
+            android:gravity="center_vertical"
+            android:paddingLeft="15.0dip"
+            android:text="@string/pre_title"
+            android:textColor="@color/black"
+            android:textSize="30.0sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:id="@+id/id_school_news"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:clickable="true"
+        android:drawablePadding="1.0dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="50dp"
+        android:paddingRight="10.0dip"
+        android:text="@string/school_news"
+        android:textColor="@color/black"
+        android:textSize="22.0sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2.0dip"
+        android:background="@drawable/biz_pc_account_line" />
+
+    <TextView
+        android:id="@+id/id_view_schedule"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:clickable="true"
+        android:drawablePadding="1.0dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="50dp"
+        android:paddingRight="10.0dip"
+        android:text="@string/view_schedule"
+        android:textColor="@color/black"
+        android:textSize="22.0sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2.0dip"
+        android:background="@drawable/biz_pc_account_line" />
+
+    <TextView
+        android:id="@+id/id_view_grade"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:clickable="true"
+        android:drawablePadding="1.0dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="50dp"
+        android:paddingRight="10.0dip"
+        android:text="@string/view_grade"
+        android:textColor="@color/black"
+        android:textSize="22.0sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2.0dip"
+        android:background="@drawable/biz_pc_account_line" />
+
+    <TextView
+        android:id="@+id/id_empty_classroom"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:clickable="true"
+        android:drawablePadding="1.0dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="50dp"
+        android:paddingRight="10.0dip"
+        android:text="@string/empty_classroom"
+        android:textColor="@color/black"
+        android:textSize="22.0sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2.0dip"
+        android:background="@drawable/biz_pc_account_line" />
+
+    <TextView
+        android:id="@+id/id_contact_us"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:clickable="true"
+        android:drawablePadding="1.0dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="50dp"
+        android:paddingRight="10.0dip"
+        android:text="@string/contast_us"
+        android:textColor="@color/black"
+        android:textSize="22.0sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2.0dip"
+        android:background="@drawable/biz_pc_account_line" />
+
+    <TextView
+        android:id="@+id/id_share"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:clickable="true"
+        android:drawablePadding="1.0dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="50dp"
+        android:paddingRight="10.0dip"
+        android:text="@string/share"
+        android:textColor="@color/black"
+        android:textSize="22.0sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2.0dip"
+        android:background="@drawable/biz_pc_account_line" />
+
+</LinearLayout>

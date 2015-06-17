@@ -1,0 +1,87 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+     <style name="MyTheme" parent="AppBaseTheme">
+        <item name="vpiTabPageIndicatorStyle">@style/MyWidget.TabPageIndicator</item>
+        <item name="android:windowNoTitle">true</item>  
+        <item name="android:animationDuration">10000</item>
+        <item name="android:windowContentOverlay">@null</item>  
+    </style>
+    
+    <style name="MyWidget.TabPageIndicator" parent="Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/vpi__tab_indicator</item>
+        <item name="android:paddingLeft">22dip</item>
+        <item name="android:paddingRight">22dip</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textAppearance">@style/MyTextAppearance.TabPageIndicator</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="MyTextAppearance.TabPageIndicator" parent="Widget">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <!-- 用户登录界面Style -->
+    <style name="login_jwgl_text_style">
+		<item name="android:textSize">18sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:gravity">bottom|center</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:padding">5dp</item>
+	</style>
+	<style name="login_jwgl_text_input_style">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textSize">16sp</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:paddingLeft">10dp</item>
+	</style>
+	
+	<!-- 个人信息显示界面Style -->
+	<style name="user_info_key_sytle">
+	    <item name="android:textSize">18sp</item>
+	    <item name="android:singleLine">true</item>
+	    <item name="android:textColor">#808080</item>
+	</style>
+	<style name="user_info_value_sytle">
+	    <item name="android:textSize">18sp</item>
+	    <item name="android:singleLine">true</item>
+	</style>
+	
+	<style name="AppIntentTheme" parent="@android:style/Theme">     
+        <item name="android:windowNoTitle">true</item> <!-- 设置没有标题 -->
+        <item name="android:textSize">20sp</item>   <!-- 设置文本大小 -->
+          <item name="android:textColor">#F34141</item>
+        <item name="android:background">@android:color/background_light</item>
+        <!-- 设置activity切换动画 -->
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+    </style>
+    <!-- animation 样式 -->
+    <style name="activityAnimation" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_left_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_right_out</item>
+    </style>
+</resources>

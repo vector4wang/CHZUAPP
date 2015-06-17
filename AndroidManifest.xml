@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chzu.app.activity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="19" />
+
+    <!-- 加入访问网络的权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+     <!-- 有米广告权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    
+    
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MyTheme" >
+        <activity android:name="com.chzu.app.activity.WelcomeActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 空教室界面 -->
+        <activity
+            android:name="com.chzu.app.activity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.chzu.app.activity.NewsContentActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.chzu.app.activity.ImageShowActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+
+        <!-- 跳转到登录界面 -->
+        <activity
+            android:name="com.chzu.app.activity.LoginActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+
+        <!-- 学年学期选择界面 -->
+        <activity
+            android:name="com.chzu.app.activity.PickYearTermActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+
+        <!-- 成绩显示界面 -->
+        <activity
+            android:name="com.chzu.app.activity.ScoreShowActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+
+        <!-- 空教室界面 -->
+        <activity
+            android:name="com.chzu.app.activity.EmptyClassShowActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+    </application>
+
+</manifest>
